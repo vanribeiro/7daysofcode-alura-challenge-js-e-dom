@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/common/reset.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <title>Cadastro de Pessoas</title>
+</head>
+<body>
+    <div class="background-ornaments">
+        <header class="header">
+            <div class="main__container this-container">
+                <h1 class="header__title">Aniversários</h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container this-container">
+                <form class="form js-form">
+                    <label class="form__label" for="name">
+                        <div class="form__field-label-text">
+                            Nome Completo:
+                        </div>
+                        <input 
+                            placeholder="nome da pessoa aniversariante"
+                            class="form__field form__field--name js-field__name" 
+                            id="name" maxlength="120" name="name" required type="text"
+                        >
+                        <span class="form__error"></span>
+                    </label>
+                    <label class="form__label" for="birth-date">
+                        <div class="form__field-label-text">
+                            Data de Nascimento:
+                        </div>
+                        <input 
+                            class="form__field form__field--birth-date js-field__birth-date" 
+                            id="birth-date" name="birth-date" required type="date"
+                        >
+                        <span class="form__error"></span>
+                    </label>
+                    <div class="form__button__container">
+                        <button 
+                            class="form__button js-form__button" 
+                            type="submit"
+                        >
+                            Salvar
+                        </button>
+                    </div>
+                </form>
+                <!-- <div class="data-table__container">
+                    <table class="data-table">
+                        <thead class="data-table__head">
+                            <tr>
+                                <th class="data-table__head__column-name">Nome</th>
+                                <th class="data-table__head__column-birth-date">Data de Nascimento</th>
+                                <th class="data-table__head__column-actions">Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody class="data-table__body">
+                            <tr>
+                                <td>Alexa Maria da Silva</td>
+                                <td>25/02/1995</td>
+                                <td class="data-table__body__action">
+                                    <span>Editar</span>
+                                    <span>Deletar</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Alexa Maria da Silva</td>
+                                <td>25/02/1995</td>
+                                <td class="data-table__body__action">
+                                    <span>Editar</span>
+                                    <span>Deletar</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Alexa Maria da Silva</td>
+                                <td>25/02/1995</td>
+                                <td class="data-table__body__action">
+                                    <span>Editar</span>
+                                    <span>Deletar</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> -->
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container this-container">
+                <p class="footer__text">
+                    Alura Challenge: 
+                    <a href="https://7daysofcode.io/matricula/javascript-e-dom" target="_blank">
+                        #7DaysOfCode - JavaScript e DOM
+                    </a>
+                </p>
+                <p class="footer__text">
+                    Coded by <a href="https://vanribeiro.github.io/" target="_blank">
+                        Van Ribeiro
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

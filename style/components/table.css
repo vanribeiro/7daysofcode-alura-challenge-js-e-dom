@@ -1,0 +1,37 @@
+.data-table__container{
+    margin: 50px 0;
+}
+
+.data-table{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.data-table__head__column-birth-date,
+.data-table__head__column-name{
+    width: 42%;
+}
+
+tr{
+    height: 40px;
+}
+
+td{
+    padding: 20px 0;
+    border-bottom: 1px solid var(--submit-button-color);
+}
+
+th{
+    border-bottom: 2px solid var(--submit-button-color);
+    font-size: 1.125em;
+    font-weight: 600;
+}
+
+.data-table__body__action span{
+    cursor: pointer;
+}
+.data-table__body__action span:nth-child(1){
+    margin-right: 16px;
+}

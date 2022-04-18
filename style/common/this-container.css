@@ -1,0 +1,34 @@
+.this-container{
+    margin: auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 1199px){
+    .this-container{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .this-container{
+        max-width: 1170px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .this-container{
+        max-width: 1280px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1440px){
+    .this-container{
+        max-width: 1400px;
+        width: 100%;
+    }
+}
+
+.this-container--link{
+    max-width: 630px;
+}
