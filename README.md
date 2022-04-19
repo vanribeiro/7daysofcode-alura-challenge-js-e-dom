@@ -1,6 +1,6 @@
 # Alura Challenge - #7DaysOfCode: JavaScript e DOM
 
-![Print da Página Criada](cover/challenge-07DaysOfCode.PNG)
+[![Print da Página Criada](cover/challenge-07DaysOfCode.PNG)](https://aniversariantes-07days-of-code.vercel.app/)
 
 ## Conteúdo
 
@@ -13,10 +13,11 @@
     5. [Dia 05](#dia-05)
     6. [Dia 06](#dia-06)
     7. [Dia 07](#dia-07)
+3. [Site Preview](#site-preview)
 
 ## Desafio
 
-**Desafio**: consiste em fazer criar uma página web que permitirá Adicionar, Alterar, Exibir e Deletar uma pessoa do cadastro de aniversariantes, compondo assim um CRUD(*Create, Read, Update and Delete*).
+**Desafio**: consiste em criar uma página web que permitirá Adicionar, Alterar, Exibir e Deletar uma pessoa do cadastro de aniversariantes, compondo assim um CRUD(*Create, Read, Update and Delete*).
 
 A página deve conter 01 título e 01 formulário com 01 campo para nome e outro para data de nascimento.
 
@@ -49,3 +50,6 @@ Roteiro, de acordo com a [página oficial](https://7daysofcode.io/matricula/java
 
 ### Dia 07
 > "No sétimo e último dia do desafio, você irá tornar a sua aplicação disponível de forma pública na internet. A sua tarefa será hospedar a sua página na nuvem, para que outras pessoas possam acessá-la e ela se torne acessível como um portfólio. Você irá fechar com chave de ouro!"
+
+## Site preview
+[Link](https://aniversariantes-07days-of-code.vercel.app/) para o [site aniversariantes](https://aniversariantes-07days-of-code.vercel.app/).
